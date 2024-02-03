@@ -23,6 +23,5 @@ phases:
 artifacts:
     files:
       - '**/*'
-    name:
-      - avisk$(date + %y-%m-%d)      
+    name: avisk$(date + %y-%m-%d)      
         
