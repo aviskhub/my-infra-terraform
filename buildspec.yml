@@ -20,4 +20,9 @@ phases:
   post_build:
     commands:
       - echo resource created
+artifacts:
+    files:
+      - '**/*'
+    name:
+      - avisk$(date + %y-%m-%d)      
         
