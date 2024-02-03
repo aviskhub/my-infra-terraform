@@ -14,7 +14,7 @@ phases:
       - ls
       - terraform init    
   build:
-    commands::
+    commands:
       - terraform plan
       - terraform apply -auto-approve
   post_build:
